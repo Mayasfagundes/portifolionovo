@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&family=Playfair+Display:wght@500;700&family=Roboto:wght@300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
+    <link rel="stylesheet" href="./style.css/estilo.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+
+    <div class="cabecalho">
+
+      <div class="cabecalho__icones">
+        <ul class="icones__cabecalho">
+          <li class="icones__cabecalho-link"><a href="#home" class="cabecalho-link">HOME</a></li>
+          <li class="icones__cabecalho-link"><a href="#sobre" class="cabecalho-link">SOBRE MIM</a></li>
+          <li class="icones__cabecalho-link"><a href="#projetos" class="cabecalho-link">PROJETO</a></li>
+          <li class="icones__cabecalho-link"><a href="#contatos" class="cabecalho-link">CONTATOS</a></li>
+        </ul>
+      </div>
+
+      <div class="cabecalho__icones-mobile">
+        <ul class="icones__cabecalho-mobile">
+          <li class="icones__cabecalho-link-mobile"><a href="#home"><img src="./img/icone-home.svg" alt="menu home"
+                class="icone__mobile"></a>
+          <li class="icones__cabecalho-link-mobile"><a href="#sobre"><img src="./img/icone-sobre.svg" alt="menu home"
+                class="icone__mobile"></a>
+          <li class="icones__cabecalho-link-mobile"><a href="#projetos"><img src="./img/icon-projetos.svg"
+                alt="menu home" class="icone__mobile"></a>
+          <li class="icones__cabecalho-link-mobile"><a href="#contatos"><img src="./img/icone-contato.svg"
+                alt="menu home" class="icone__mobile"></a>
+        </ul>
+      </div>
+
+    
+    <div class="toggle-container">
+      <label class="switch">
+        <input type="checkbox" id="toggleSwitch">
+        <span class="slider"></span>
+      </label>
+    </div>
+        </div>
+
+  </header>
+
+  <section class="home" id="home">
+    <div class="home__conteudo">
+      <h2 class="home__conteudo-profissao Transiçãocor1">FRONT-END</h2>
+      <h3 class="home__conteudo-titulo Transiçãocor2">Olá, meu nome é <br>Mayara Fagundes</h3>
+      <p class="home__conteudo-texto preto">Bem vindo ao meu portfólio!</p>
+      <div class="icones__home">
+        <ul class="icones__home-itens">
+          <li class="icones__home-link "> <a href="https://github.com/Mayasfagundes" class="home-link preto">Github</a></li>
+          <li class="icones__home-link"> <a href="https://www.linkedin.com/in/mayarasfagundes/"
+              class="home-link preto">Linkedin</a></li>
+          <li class="icones__home-link"> <a href="./img/Mayara.fagundes.pdf" class="home-link preto">Curriculo</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="sobre" id="sobre">
+    <h1 class="sobre__conteudo-titulo Tcor1">Sobre mim</h1>
+
+    <div class="sobre__container">
+
+      <div class="sobre__foto">
+        <img class="sobre__foto-principal hidden" src="./img/imagem-home.jpeg" alt="Foto de Mayara Fagundes">
+      </div>
+
+      <div class="sobre__conteudo hidden">
+        <p class="sobre__conteudo-texto preto">Olá meu nome é Mayara e tenho 29 anos. 
+          Sou uma desenvolvedora com foco em Front-END. 
+          Atualmente faço faculdade de engenharia de software na Unicesumar.
+          Possuo habilidades interpessoais que me permitem trabalhar bem em equipe e comunicar ideias de forma clara e concisa. Estou sempre em busca de desenvolvimento pessoal e do aprimoramento das minhas habilidades. Tenho grande entusiasmo pela programação e pelo seu poder criativo. Fique à vontade para entrar em contato comigo para discutir possíveis oportunidades de colaboração.
+         </p>
+      </div>
+    </div>
+
+
+    <div class="Habilidades hidden">
+      <h2 class="skils__titulo-container Tcor1">Habilidades</h2>
+
+      <div class="skils">
+
+        <div class="skils__itens hidden">
+          <p class="skils__titulo"> CSS</p>
+          <img class="skils__img" src="./img/css.svg" alt="CSS">
+        </div>
+
+        <div class="skils__itens hidden">
+          <p class="skils__titulo"> HTML</p>
+          <img class="skils__img" src="./img/HTML5 (1).svg" alt="CSS">
+        </div>
+
+        <div class="skils__itens hidden">
+          <p class="skils__titulo"> Javascript</p>
+          <img class="skils__img" src="./img/Javascript.svg" alt="CSS">
+        </div>
+
+        <div class="skils__itens hidden">
+          <p class="skils__titulo"> Github</p>
+          <img class="skils__img" src="./img/Github.svg" alt="CSS">
+        </div>
+
+        <div class="skils__itens hidden">
+          <p class="skils__titulo"> Figma</p>
+          <img class="skils__img" src="./img/Figma.svg" alt="CSS">
+        </div>
+
+        <div class="skils__itens hidden">
+          <p class="skils__titulo"> Bootstrap</p>
+          <img class="skils__img" src="./img/bots.svg" alt="CSS">
+        </div>
+
+      </div>
+    </div>
+
+
+  </section>
+
+
+  <section class="projetos" id="projetos">
+
+    <h1 class="projetos__titulo Tcor1">Projetos</h1>
+
+    <div class="project-info">
+
+      <div class="projetos__video" data-anime="left">
+        <img class="projetos__video__exibicao" src="img/gif portifolio.gif" alt="">
+        <div class="projetos__info-conteudo">
+          <h3 class="projetos__subtitulo preto">Portifolio Fotografo</h3>
+          <p class="projetos__texto preto">Projeto autoral, criado estudo de caso.<br> Ainda em andamento </p>
+          <a class="projetos__botao" href="https://projeto-black-phi.vercel.app/" target="_blank">Site</a>
+          <a class="projetos__botao" href="https://github.com/Mayasfagundes/projeto" class="btn2"
+            target="_blank">Código</a>
+        </div>
+      </div>
+
+
+      <div class="projetos__video" data-anime="right">
+        <img class="projetos__video__exibicao" src="img/gif meteora.gif" alt="">
+        <div class="projetos__info-conteudo">
+          <h3 class="projetos__subtitulo preto">Meteora</h3>
+
+          <p class="projetos__texto preto">Projeto criado no desafio do 7 challenge Alura Front-end.</p>
+          <a class="projetos__botao" href="https://meteora-lake.vercel.app/" target="_blank">Site</a>
+          <a class="projetos__botao" href="https://github.com/Mayasfagundes/meteora" class="btn2"
+            target="_blank">Código</a>
+        </div>
+      </div>
+
+
+      <div class="projetos__video" data-anime="left">
+        <img class="projetos__video__exibicao" src="img/gif alurabook.gif" alt="">
+        <div class="projetos__info-conteudo">
+          <h3 class="projetos__subtitulo preto">Alura Book</h3>
+
+          <p class="projetos__texto preto">Projeto criado como estudo de caso em um curso da Alura. </p>
+          <a class="projetos__botao" href="https://mobilefirst-six.vercel.app/" target="_blank">Site</a>
+          <a class="projetos__botao" href="https://github.com/Mayasfagundes/mobilefirst" class="btn2"
+            target="_blank">Código</a>
+        </div>
+      </div>
+
+
+      <div class="projetos__video" data-anime="right">
+        <img class="projetos__video__exibicao" src="img/gif alura plus.gif" alt="">
+        <div class="projetos__info-conteudo">
+          <h3 class="projetos__subtitulo preto">Alura Plus</h3>
+          <p class="projetos__texto preto">Projeto criado como estudo de caso em um curso da Alura. </p>
+          <a class="projetos__botao" href="https://aluraplus-nine-sigma.vercel.app/" target="_blank">Site</a>
+          <a class="projetos__botao" href="https://github.com/Mayasfagundes/aluraplus" class="btn2"
+            target="_blank">Código</a>
+        </div>
+      </div>
+
+
+      <div class="projetos__video" data-anime="left">
+        <img class="projetos__video__exibicao" src="img/gif aluracast.gif" alt="">
+        <div class="projetos__info-conteudo">
+          <h3 class="projetos__subtitulo preto">Alura Cast</h3>
+          <p class="projetos__texto preto">Projeto criado como estudo de caso em um curso da Alura.</p>
+          <a class="projetos__botao" href="https://css-grid-gamma.vercel.app/" target="_blank">Site</a>
+          <a class="projetos__botao" href="https://github.com/Mayasfagundes/css-grid" class="btn2"
+            target="_blank">Código</a>
+        </div>
+      </div>
+
+    </div>
+    
+  </section>
+
+
+  <section class="contato" id="contatos">
+    <h1 class="contatos__titulo Tcor1">Contatos</h1>
+
+    <div class="contato__conteudo">
+      <p class="contato__texto preto">Tem uma pergunta, proposta ou apenas quer
+        dizer olá? <br>Vá em frente.</p>
+
+
+      <div class="contato__botoes">
+        <div class="contato__itens hidden" >
+          <a href="mailto:mayara.christina.fagundes@gmail.com">
+            <div class="box">
+              <img class="icon" src="./img/emailcont.svg" alt="e-mail">
+            </div>
+          </a>
+          <a class="contato__itens-texto" href="mailto:mayara.christina.fagundes@gmail.com">
+            <p>E-mail</p>
+          </a>
+        </div>
+
+        <div class="contato__itens hidden">
+          <a href="https://api.whatsapp.com/send?phone=5548991458971">
+            <div class="box">
+              <img class="icon" src="./img/fonecont.svg" alt="telefone">
+            </div>
+          </a>
+          <a class="contato__itens-texto" href="https://api.whatsapp.com/send?phone=5548991458971">
+            <p>Whatsapp</p>
+          </a>
+
+        </div>
+
+        <div class="contato__itens hidden">
+          <a href="https://www.linkedin.com/in/mayarasfagundes/">
+            <div class="box">
+              <img class="icon" src="img/linkedincont.svg" alt="linkedin">
+            </div>
+          </a>
+          <a class="contato__itens-texto" href="https://www.linkedin.com/in/mayarasfagundes/">
+            <p>Linkedin</p>
+          </a>
+        </div>
+
+        <div class="contato__itens hidden">
+          <a href="https://github.com/Mayasfagundes">
+            <div class="box">
+              <img class="icon" src="img/githubcont.svg" alt="Github">
+            </div>
+          </a>
+          <a class="contato__itens-texto" href="https://github.com/Mayasfagundes">
+            <p>Github</p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+
+
+  <footer class="rodape">
+    <div class="rodape__texto">
+      <p class="rodape__texto-link preto">Mayara Fagundes — Copyright 2023</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <script src="./js/contato.js"></script>
+
+</body>
+
+</html>

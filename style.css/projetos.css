@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
+
+.project-info {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.projetos__titulo {
+  color: var(--branco);
+}
+
+.projetos__info-conteudo {
+  width: 400px;
+  height: 180px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+
+
+}
+
+
+.projetos__video {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: center;
+  text-align: right;
+  margin: 3rem;
+  padding-bottom: 3rem;
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 1rem;
+  width: 350px;
+  height: 380px;
+
+}
+
+.projetos__video__exibicao {
+  border-radius: 1rem;
+  margin-top: 1.5rem;
+  width: 280px;
+  height: 380px;
+}
+
+
+
+.projetos__subtitulo {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--branco);
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+
+.projetos__texto {
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--branco);
+  padding: 0.5rem 0;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2rem;
+  margin: 0 2.5rem;
+
+
+
+}
+
+.projetos__botao {
+  background-color: var(--rosa);
+  color: var(--preto);
+  border-radius: 0.5rem;
+  font-weight: 500;
+  font-size: 16px;
+  border: transparent;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin: 0.5rem;
+  text-align: center;
+
+
+}
+
+.projetos__tech {
+  color: var(--branco);
+
+}
+
+.projetos__botao:hover {
+  background-color: #A3C4FF;
+
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+  .projetos__video-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+    text-align: right;
+  
+  }
+
+  .projetos__video {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    margin: 3rem;
+    padding-bottom: 3rem;
+  
+  }
+
+  .projetos__info-conteudo {
+    width: 250px;
+    height: 160px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+  
+  
+  }
+
+  .projetos__video__exibicao{
+    width: 250px;
+    height: 180px;
+
+  }
+  
+
+}

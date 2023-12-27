@@ -1,0 +1,124 @@
+.sobre__container{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.sobre__conteudo {
+  text-align: justify;
+  color: var(--branco);
+}
+
+.sobre__conteudo-titulo {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 300;
+  padding-bottom: 2rem;
+  font-weight: bolder;
+
+}
+
+.sobre__conteudo-texto {
+  padding: 1rem;
+  font-size: 20px;
+  margin: 0 5rem;
+
+
+}
+
+.sobre__foto-principal{
+  width: 300px;
+  border-radius: 10px;
+  margin-left: 5rem;
+}
+
+
+.skils {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.skils__titulo-container,
+.skils__titulo {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Playfair";
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 2rem;
+  color: var(--branco);
+  text-transform: uppercase;
+}
+
+.skils__titulo {
+  font-size: 16px;
+  margin-bottom: 1rem;
+}
+
+.skils__itens {
+  align-items: center;
+  text-align: center;
+  background-color: #212121;
+  border-radius: 1rem;
+  width: 10rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.skils__img {
+  width: 5rem;
+}
+
+.skils__itens:nth-child(2) {
+  transition-delay: 400ms;
+}
+
+.skils__itens:nth-child(3) {
+  transition-delay: 800ms;
+}
+
+.skils__itens:nth-child(4) {
+  transition-delay: 1200ms;
+}
+
+.skils__itens:nth-child(5) {
+  transition-delay: 1600ms;
+}
+
+.skils__itens:nth-child(6) {
+  transition-delay: 2000ms;
+}
+
+@media screen and (max-width: 768px) {
+  .sobre__container {
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sobre__conteudo {
+    margin: 3rem;
+  }
+
+  .sobre__conteudo-texto {
+    padding: 0;
+  }
+
+  .skils__itens{
+    width: 120px;
+  }
+
+  .skils__img {
+    width: 3rem;
+  }
+
+  .skils {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+}
