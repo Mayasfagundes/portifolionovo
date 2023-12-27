@@ -99,11 +99,10 @@
     justify-content: center;
   }
 
-  .sobre__conteudo {
-    margin: 3rem;
-  }
+  
 
   .sobre__conteudo-texto {
+    margin: 2rem;
     padding: 0;
   }
 
@@ -111,8 +110,12 @@
     width: 120px;
   }
 
-  .skils__img {
-    width: 3rem;
+  .sobre__foto-principal{
+    width: 220px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+
   }
 
   .skils {

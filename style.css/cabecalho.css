@@ -10,6 +10,7 @@
   align-items: center;
   background-color: var(--cinza-escuro);
   padding: 1rem;
+  padding-left: 25rem;
 
 }
 
@@ -25,9 +26,7 @@
 }
 
 .cabecalho-link:hover {
-  background-color: var(--branco);
-  color: #0A2A0A;
-  border-radius: 5px;
+  border-bottom: 4px solid var(--rosa);
   font-weight: bolder;
   justify-content: right;
   padding: .5rem;
@@ -47,7 +46,6 @@
   color: var(--cinza-medio);
   font-weight: 700 bold;
   justify-content: right;
-  border-radius: 5px;
   padding: 1rem;
 
   
@@ -77,6 +75,8 @@
     z-index: 999;
     background-color: var(--cinza-medio);
     opacity: 0.8;
+    padding-left: 1rem;
+
 
   }
 

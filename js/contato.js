@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     Transicao2.forEach(function (element) {
-      element.style.color = toggleSwitch.checked ? '#A3C4FF' : '#AFA5FC';
+      element.style.color = toggleSwitch.checked ? '#A3C4FF' : '#585382';
     });
   });
 });
