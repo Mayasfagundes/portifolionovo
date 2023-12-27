@@ -29,7 +29,7 @@
 }
 
 .home__conteudo-texto {
-  padding-top: 1rem;
+  padding-top: 2rem;
   color: var(--branco);
   font-size: 20px;
 
@@ -39,16 +39,17 @@
 .icones__home-itens {
   display: flex;
   flex-direction: row;
-  padding-top: 1rem;
   text-align: center;
   justify-content: center;
   align-items: center;
+  margin: 2rem;
 
 
 }
 
 .icones__home-link {
-  margin: 1rem;
+  margin: 1.5rem;
+  
 
 }
 
@@ -60,10 +61,8 @@
   border: 2px solid var(--rosa);
   border-radius: 5px;
   font-weight: bold;
- 
-
-
-}
+  
+ }
 
 .home-link:hover {
   background-color: #A3C4FF;
@@ -86,29 +85,32 @@
   .home__conteudo {
     text-align: center;
     align-items: center;
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
     margin: 0;
 
   }
 
   .home__conteudo-titulo {
-    font-size: 30px;
+    font-size: 36px;
   }
 
   .home__conteudo-texto {
     display: none;
   }
 
+  .home-link {
+   font-size: 20px;
+   }
+
   .icones__home-itens {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
   }
 
   
 
-  .icones__home-itens {
-    display: flex;
 
-  }
 
 
   .home__conteudo {
